@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        
+        <p class="navImgMap">
+            <img src="images/graphic_navbar.jpg" alt="Navigation Bar" class="navImg" usemap="#navmap">
+        </p>
+        <map name="navmap">
+            <area shape="rect" coords="5,25,80,85" href="index.html" alt="Home Page">
+            <area shape="rect" coords="83,25,123,85" href="history.html" alt="History Page">
+            <area shape="rect" coords="126,25,216,85" href="description.html" alt="Description Page">
+            <area shape="rect" coords="218,25,295,85" href="characteristics.html" alt="Characteristic Page">
+            <area shape="rect" coords="298,25,352,85" href="temperment.html" alt="Temperment Page">
+            <area shape="rect" coords="355,25,445,85" href="newsletter.html" alt="Newsletter Page">
+        </map>
+    </nav>
+
+    <header>
+        <h1>Cats</h1>
+        <blockquote>The World's #1 Pet</blockquote>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="table-container form-container">
+            <form action="nailto:jayden.johsnson@sllboces.org" method="get">
+            <table>
+                <caption>If you are interested in learning more about cats, please sign up for our monthly newsletter</caption>
+
+                <thead>
+                    <tr>
+                        <th>Your image goes here:</th>
+                        <th>Your form goes here:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td rowspan="4">
+                            <img src="images/cat1.jpeg" alt="it is a picture of a cat!">
+                        </td>
+                        <td>
+                            <label for="fName">First Name</label>
+                            <input type="text" id="fName" name="fName" required>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="lName">Last Name</label>
+                            <input type="text" id="lName" name="lName" required>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                     </tr>
+                </tbody>
+            </table>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="description.html">Description</a></li>
+            <li><a href="characteristics.html">Characteristics</a></li>
+            <li><a href="temperment.html">Temperment</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li>Link to my template</li>
+        </ul>
+        <h5>&copy; 2024 Jayden Johnson</h5>
+        <h5>Last Updated: 05/02/2024</h5>
+    </footer>
+</body>
+</html>

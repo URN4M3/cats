@@ -1,0 +1,208 @@
+/*************************************
+Color Palette:
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/**** CSS Reset ********/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ccaf9d;
+}
+
+header {
+    color: #e76a1a;
+    text-align: center;
+    font-weight: bold;
+    padding-top:2%;
+    font-family: "Tangerine", cursive;
+    font-size: 3em;
+}
+
+nav {
+    
+}
+
+.navImg {
+    margin: 0 auto;
+    background-color: #804720;
+}
+
+header h1 {
+    color: #e76a1a;
+}
+
+header h2 {
+
+}
+
+
+nav a {
+
+}
+
+nav.a:hover {
+
+}
+
+blockquote {
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table, th, td {
+    /* border: 1px solid #ccc; light grey border */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.table-container {
+
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    font-size: 1.5em;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+}
+
+form label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* includes padding and border in the width*/
+}
+
+.table-container {
+
+}
+
+footer {
+    text-align: center;
+    background-color: #804720
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+}
+
+nav p {
+    text-align: center;
+    background-color: #804720;
+}
+
+main {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+main h2 {
+    font-size: 1.5em;
+
+}
+
+main p {
+    font-size: 1em;
+}
+
+#hero_index {
+	background-image: url("../images/cat1.jpeg");
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+    min-height: 450px;
+}
+
+#hero_history {
+	background-image: url("../images/cat2.jpg");
+	background-size: cover;
+    background-position: bottom;
+	background-repeat: no-repeat;
+	background-color: #fff;
+    min-height: 600px;
+}
+
+#hero_description {
+	background-image: url("../images/cat3.jpg");
+	background-size: cover;
+    background-position: bottom;
+	background-repeat: no-repeat;
+	background-color: #fff;
+    min-height: 550px;
+}
+
+#hero_character {
+	background-image: url("../images/cat4.jpg");
+	background-size: cover;
+    background-position: bottom;
+	background-repeat: no-repeat;
+	background-color: #fff;
+    min-height: 550px;
+}
+
+#hero_temp {
+	background-image: url("../images/cat5.jpg");
+	background-size: cover;
+    background-position: top;
+	background-repeat: no-repeat;
+	background-color: #fff;
+    min-height: 600px;
+}
